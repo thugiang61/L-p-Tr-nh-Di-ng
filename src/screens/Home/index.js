@@ -34,3 +34,12 @@ const Index = () => {
 
 export default Index;
 
+const styles = StyleSheet.create({
+	container: {
+		flex: 1,
+	},
+	sections: {
+		flex: 1,
+		marginTop: Dimensions.get('screen').height * 0.025,
+	},
+});

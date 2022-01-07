@@ -14,7 +14,7 @@ const Index = ({ songs }) => {
 	return (
 		<Drawer active={drawer} current="favourite" onItemPressed={() => setDrawer(false)}>
 			<SafeAreaView style={styles.container}>
-				<Headerß
+				<Header
 					options={{
 						left: {
 							children: drawer ? <Icon name="x" color="#C4C4C4" /> : <Image source={require('../../assets/icons/hamburger.png')} resizeMode="contain" />,
@@ -54,4 +54,4 @@ const styles = StyleSheet.create({
 		flex: 1,
 		marginTop: Dimensions.get('screen').height * 0.025,
 	},
-});ß
+});

@@ -53,3 +53,5 @@ expo start || npm run start || yarn start
 - [react-redux](https://www.npmjs.com/package/react-redux)
 - [redux](https://www.npmjs.com/package/redux)
 
+
+hi, xin chào anh chị ạ, e mới học lập trình, thấy bài ac hay quá, e có thể xin bài của ac được ko ạ
